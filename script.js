@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         locale: 'es',
 
-        initialView: 'dayGridMonth',
+       initialView: window.innerWidth < 768 ? 'listMonth' : 'dayGridMonth',
 
         initialDate: '2026-07-01',
 
@@ -229,5 +229,19 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     calendar.render();
+
+});
+
+window.addEventListener('resize',function(){
+
+if(window.innerWidth < 768){
+
+calendar.changeView('listMonth');
+
+}else{
+
+calendar.changeView('dayGridMonth');
+
+}
 
 });
