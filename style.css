@@ -103,3 +103,182 @@ gap:15px;
 text-align:center;
 }
 }
+
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 1200px){
+
+main{
+
+display:flex;
+flex-direction:column;
+
+}
+
+.calendar-area{
+
+width:100%;
+
+}
+
+aside{
+
+width:100%;
+
+margin-top:20px;
+
+}
+
+}
+
+/* Tablets */
+
+@media (max-width:768px){
+
+header{
+
+flex-direction:column;
+text-align:center;
+gap:15px;
+padding:20px;
+
+}
+
+.logo img{
+
+max-width:180px;
+
+}
+
+.titulo h1{
+
+font-size:28px;
+
+}
+
+.titulo h2{
+
+font-size:18px;
+
+}
+
+.reloj{
+
+width:100%;
+justify-content:center;
+
+}
+
+.calendar-area{
+
+padding:10px;
+
+overflow-x:auto;
+
+}
+
+.fc{
+
+min-width:700px;
+
+}
+
+.detalle{
+
+padding:20px;
+
+}
+
+.leyenda{
+
+justify-content:center;
+
+}
+
+footer{
+
+flex-direction:column;
+
+gap:10px;
+
+}
+
+}
+
+/* Celulares */
+
+@media (max-width:480px){
+
+body{
+
+font-size:14px;
+
+}
+
+header{
+
+padding:15px;
+
+}
+
+.logo img{
+
+max-width:140px;
+
+}
+
+.titulo h1{
+
+font-size:22px;
+
+}
+
+.titulo h2{
+
+font-size:16px;
+
+}
+
+.calendar-area{
+
+padding:5px;
+
+overflow-x:auto;
+
+}
+
+.fc{
+
+min-width:650px;
+
+}
+
+.detalle h2{
+
+font-size:20px;
+
+}
+
+.detalle h3{
+
+font-size:16px;
+
+}
+
+.detalle p{
+
+font-size:14px;
+
+}
+
+#eventoMapa{
+
+width:100%;
+text-align:center;
+
+}
+
+}
