@@ -74,21 +74,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
             {
 
-                title: "Festival Nacional de la Pollera",
-    start: "2026-07-18",
+    title: "  ",
+    start: "  ",
     color: "#d32f2f",
 
     extendedProps: {
 
-        hora: "8:00 AM",
+        hora: "  ",
 
-        lugar: "Las Tablas, Los Santos",
+        lugar: "  ",
 
-        responsable: "Carlos González",
+        responsable: " ",
 
-        descripcion: "Cobertura especial del Festival Nacional de la Pollera. Se realizará transmisión en vivo desde el parque principal.",
+        descripcion: "  ",
 
-        observaciones: "Llegar a las 7:00 AM. Preparar equipo de transmisión y coordinar entrevista con la reina del festival.",
+        observaciones: "  ",
 
         mapa: "https://maps.google.com",
 
