@@ -77,17 +77,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
             {
 
-                title:" ",
+                title:"Hello",
 
-                start:"2026-07-18",
+                start:"2026-07-15",
 
                 color:"#d32f2f",
 
                 extendedProps:{
 
-                    hora:" ",
+                    hora:" 8:00 am",
 
-                    lugar:" ",
+                    lugar:" Panama",
 
                     responsable:" ",
 
